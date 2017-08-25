@@ -1,0 +1,11 @@
+bvi_file_upload_homepage:
+    path:     /
+    defaults: { _controller: BviFileUploadBundle:Default:index }
+    
+bvi_file_upload_file:
+    path:     /upload-file
+    defaults: { _controller: BviFileUploadBundle:Default:doUpload }
+    
+bvi_file_remove_file:
+    path:     /remove-file
+    defaults: { _controller: BviFileUploadBundle:Default:deleteFile }

@@ -1,0 +1,18 @@
+{
+    "name": "kapilpatel20/bvi-fileupload",
+    "description": "File upload, resize image, water mark on images",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/kapilpatel20/bvi-fileupload",
+    "authors": [{
+            "name": "Rahul Trivedi",
+            "email": "rahul.trivedi@brainvire.com"
+        }],
+    "keywords": [
+        "File upload, water mark, resize images, multi-upload"
+    ],
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {"BviFileUploadBundle\\": ""}
+    },
+    "minimum-stability": "dev"
+}
